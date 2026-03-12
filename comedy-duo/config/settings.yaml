@@ -1,0 +1,13 @@
+cooldown_seconds: 30
+hot_events_override_cooldown: true
+tts_enabled: true
+twitch_chat_enabled: true
+overlay_enabled: true
+duo_delay_seconds: 4
+overlay_message_ttl_seconds: 15
+overlay_max_visible: 5
+tts_provider: "say"
+control_panel_port: 3001
+overlay_port: 3002
+websocket_port: 3003
+model_name: "openai:gpt-4o-mini"
