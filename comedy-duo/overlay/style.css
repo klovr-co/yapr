@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+
+#ticker {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-height: 90vh;
+    overflow: hidden;
+}
+
+.message {
+    padding: 12px 16px;
+    border-radius: 12px;
+    animation: slideIn 0.3s ease-out;
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+    backdrop-filter: blur(10px);
+}
+
+.message.carra {
+    background: rgba(220, 38, 38, 0.85);
+    color: white;
+    border-left: 4px solid #fca5a5;
+}
+
+.message.nev {
+    background: rgba(37, 99, 235, 0.85);
+    color: white;
+    border-left: 4px solid #93c5fd;
+}
+
+.message .bot-name {
+    font-weight: 700;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+    opacity: 0.8;
+}
+
+.message .bot-text {
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.message.fading {
+    opacity: 0;
+}
