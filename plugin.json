@@ -1,0 +1,10 @@
+{
+  "name": "yapr",
+  "displayName": "Yapr",
+  "description": "Personal streaming assistant skills — Twitch stream management, OBS control, and channel tools",
+  "version": "1.0.0",
+  "author": {
+    "name": "Maxine"
+  },
+  "skills": "./skills/"
+}

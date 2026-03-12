@@ -1,0 +1,22 @@
+{
+  "theme": "cozy cat cafe with plants and coffee",
+  "style": "kawaii",
+  "palette": "pastel",
+  "density": "decorated",
+  "stream_type": "just-chatting",
+  "output": "./test-overlay",
+  "palette_colors": {
+    "primary": "#FFB5E8",
+    "secondary": "#B5D8FF",
+    "accent": "#BFFCC6",
+    "background": "#FFF5BA"
+  },
+  "generated": [
+    "webcam-frame",
+    "alert-box",
+    "starting-soon",
+    "brb",
+    "lower-third",
+    "decorations"
+  ]
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Decorations</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1920px; height: 1080px; overflow: hidden;
+    background: transparent;
+    font-family: 'Segoe UI', 'Noto Sans', sans-serif;
+    --primary: #FFB5E8;
+    --secondary: #B5D8FF;
+    --accent: #BFFCC6;
+    --bg: #FFF5BA;
+  }
+  
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  25% { transform: translateY(-15px) rotate(3deg); }
+  75% { transform: translateY(10px) rotate(-2deg); }
+}
+@keyframes pop-in {
+  0% { transform: scale(0); opacity: 0; }
+  60% { transform: scale(1.15); opacity: 1; }
+  80% { transform: scale(0.95); }
+  100% { transform: scale(1); opacity: 1; }
+}
+@keyframes sparkle {
+  0%, 100% { opacity: 0; transform: scale(0.5); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+@keyframes slow-rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+  
+</style>
+</head>
+<body>
+<div style="width:100%;height:100%;position:relative;"><img src="assets/decorations.png" style="position:absolute;left:88%;top:57%;width:41px;height:41px;object-fit:contain;animation:float 3.6s ease-in-out 1.9s infinite;opacity:.85;pointer-events:none;" /><img src="assets/decorations.png" style="position:absolute;left:48%;top:8%;width:66px;height:66px;object-fit:contain;animation:float 4.0s ease-in-out 1.3s infinite;opacity:.85;pointer-events:none;" /><img src="assets/decorations.png" style="position:absolute;left:40%;top:6%;width:71px;height:71px;object-fit:contain;animation:float 4.2s ease-in-out 2.6s infinite;opacity:.85;pointer-events:none;" /><img src="assets/decorations.png" style="position:absolute;left:37%;top:56%;width:57px;height:57px;object-fit:contain;animation:float 4.9s ease-in-out 4.8s infinite;opacity:.85;pointer-events:none;" /><img src="assets/decorations.png" style="position:absolute;left:86%;top:55%;width:73px;height:73px;object-fit:contain;animation:float 4.8s ease-in-out 3.7s infinite;opacity:.85;pointer-events:none;" /></div>
+</body>
+</html>
