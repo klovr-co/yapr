@@ -1,66 +1,63 @@
-# Pastel Mint & Sky — Color Palette
+# Pastel Mint & Sky (Dark Mode) — Color Palette
 
 ## Core Colors
 
-| Role          | Name         | Hex       | RGB              |
-|---------------|-------------|-----------|------------------|
-| Background    | Soft white-blue | `#EAF4F4` | 234, 244, 244 |
-| Foreground    | Cool charcoal   | `#4A5568` | 74, 85, 104   |
-| Bold text     | Dark charcoal   | `#2D3748` | 45, 55, 72    |
-| Cursor        | Aqua            | `#81E6D9` | 129, 230, 217 |
-| Selection     | Light aqua      | `#B2F5EA` | 178, 245, 234 |
+| Role          | Name              | Hex       |
+|---------------|-------------------|-----------|
+| Background    | Dark navy purple  | `#1A1B2E` |
+| Foreground    | Soft lavender white| `#D4D2E8` |
+| Bold text     | Bright lavender   | `#EDE9FC` |
+| Cursor        | Soft pink         | `#F5A9B8` |
+| Selection     | Muted purple      | `#2E2B4A` |
 
 ## ANSI Colors (Normal)
 
-| ANSI   | Name       | Hex       |
-|--------|-----------|-----------|
-| Black  | Muted slate   | `#A0AEC0` |
-| Red    | Soft rose     | `#FEB2B2` |
-| Green  | Mint          | `#9AE6B4` |
-| Yellow | Pale gold     | `#FEFCBF` |
-| Blue   | Sky           | `#90CDF4` |
-| Magenta| Lavender      | `#D6BCFA` |
-| Cyan   | Aqua          | `#76E4F7` |
-| White  | Cloud white   | `#F7FAFC` |
+| ANSI   | Name            | Hex       |
+|--------|-----------------|-----------|
+| Black  | Deep purple-grey| `#3B3A52` |
+| Red    | Soft rose pink  | `#F5A9B8` |
+| Green  | Soft mint       | `#9AE6B4` |
+| Yellow | Warm peach      | `#FDDCB5` |
+| Blue   | Soft sky        | `#90CDF4` |
+| Magenta| Pastel purple   | `#D6BCFA` |
+| Cyan   | Soft aqua       | `#76E4F7` |
+| White  | Lavender white  | `#D4D2E8` |
 
 ## ANSI Colors (Bright)
 
-| ANSI   | Name             | Hex       |
-|--------|-----------------|-----------|
-| Black  | Darker slate     | `#718096` |
-| Red    | Brighter rose    | `#FC8181` |
-| Green  | Brighter mint    | `#68D391` |
-| Yellow | Warmer gold      | `#F6E05E` |
-| Blue   | Brighter sky     | `#63B3ED` |
-| Magenta| Brighter lavender| `#B794F4` |
-| Cyan   | Brighter aqua    | `#4FD1C5` |
-| White  | Pure white       | `#FFFFFF` |
+| ANSI   | Name              | Hex       |
+|--------|-------------------|-----------|
+| Black  | Lighter purple-grey| `#565470` |
+| Red    | Brighter pink     | `#F8C4D0` |
+| Green  | Brighter mint     | `#B5F0CA` |
+| Yellow | Brighter peach    | `#FEE9D0` |
+| Blue   | Brighter sky      | `#B3DDF9` |
+| Magenta| Brighter purple   | `#E4D2FC` |
+| Cyan   | Brighter aqua     | `#A0EDFA` |
+| White  | Pure lavender     | `#EDE9FC` |
 
 ## LS_COLORS Mapping
 
-Use these for `LS_COLORS` to match the palette:
-
 ```
 di=34        # Directories: Sky blue
-ln=36        # Symlinks: Aqua/cyan
+ln=36        # Symlinks: Aqua
 ex=32        # Executables: Mint green
 *.md=35      # Markdown: Lavender
-*.json=33    # JSON: Pale gold
+*.json=33    # JSON: Peach
 *.py=34      # Python: Sky blue
-*.js=33      # JavaScript: Pale gold
+*.js=33      # JavaScript: Peach
 *.ts=34      # TypeScript: Sky blue
-*.txt=37     # Text: Cloud white
-*.log=90     # Logs: Muted slate
+*.txt=37     # Text: Lavender white
+*.log=90     # Logs: Muted purple-grey
 ```
 
 ## Zsh Prompt Colors
 
-Use `%F{color}` with these names:
-
-| Zsh Name  | Maps To         |
-|-----------|-----------------|
-| `cyan`    | Aqua `#76E4F7`  |
-| `green`   | Mint `#9AE6B4`  |
-| `blue`    | Sky `#90CDF4`   |
-| `magenta` | Lavender `#D6BCFA` |
-| `yellow`  | Pale gold `#FEFCBF` |
+| Zsh Name  | Maps To              |
+|-----------|----------------------|
+| `cyan`    | Soft aqua `#76E4F7`  |
+| `green`   | Soft mint `#9AE6B4`  |
+| `blue`    | Soft sky `#90CDF4`   |
+| `magenta` | Pastel purple `#D6BCFA` |
+| `yellow`  | Warm peach `#FDDCB5` |
+| `red`     | Soft rose `#F5A9B8`  |

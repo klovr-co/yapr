@@ -3,13 +3,23 @@ name: cute-terminal
 description: Use when customizing iTerm2 appearance, theming a terminal, making a terminal cute or aesthetic, setting up pastel colors for shell/prompt/iTerm2, or beautifying a macOS terminal setup
 ---
 
-# Cute Terminal — Pastel Mint & Sky
+# Cute Terminal — Pastel Mint & Sky (Dark Mode)
 
-Guide the user step-by-step through transforming their iTerm2 + Zsh into a soft pastel mint & sky aesthetic. No new tools — just configuration. Ask for confirmation before each change.
+Guide the user step-by-step through transforming their iTerm2 + Zsh into a soft pastel mint & sky aesthetic on a dark navy/purple background. No new tools — just configuration. Ask for confirmation before each change.
 
 ## Workflow
 
-Walk through these 4 steps in order. For each step: explain what changes, show the config, ask for confirmation, then apply.
+Walk through these 5 steps in order. For each step: explain what changes, show the config, ask for confirmation, then apply.
+
+### Step 0: Preview
+
+Before making any changes, run the preview script so the user can see the palette:
+
+```bash
+bash cute-terminal/scripts/preview.sh
+```
+
+This prints a color swatch showing all ANSI colors, sample prompts, and sample ls output using the palette. The preview uses ANSI escape codes, so it reflects the *current* terminal colors — run it again after importing the profile to see the final result.
 
 ### Step 1: iTerm2 Color Profile
 
